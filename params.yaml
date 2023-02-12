@@ -1,0 +1,26 @@
+base: 
+  project: bank_customer_churn
+  data_dir: data
+  data_frame: Churn_Modelling.csv
+  cat_cols: []
+  num_cols: 
+  - CreditScore
+  - Age
+  - Tenure
+  - Balance
+  - NumOfProducts
+  - HasCrCard
+  - IsActiveMember
+  - EstimatedSalary
+  target_col: Exited
+  random_state: 42
+
+  data_split: 
+    test_size: 0.25
+  train: 
+    models_dir: models
+    model_fname: model.joblib
+    model_type: random-forest
+    params: 
+      n_estimator: 30
+      max_depth: 5

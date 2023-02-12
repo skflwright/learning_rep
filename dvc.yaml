@@ -1,0 +1,25 @@
+stages: 
+    run_notebook:
+        cmd: papermill.bank_churn.ipynb bank_churn_out.ipynb
+             - p n_estimators ${train.params.n_estimators}
+             - p max_depth ${train.params.max_depth}
+             - p model_type ${train.model_type}
+        deps:
+             - data/Churn_Modelling.csv
+             - bank_churn.ipynb
+        params: 
+             - base
+             - data_split
+             - train
+        outs: 
+             - models/model.joblib
+        metrics: 
+             - metrics.json
+                 cache: false
+        plots: 
+             - eval_plots/cm.png
+                 cache: false
+             - eval_plots/plots/roc.json
+                 cache: false
+                 x: fpr
+                 y: tpr
