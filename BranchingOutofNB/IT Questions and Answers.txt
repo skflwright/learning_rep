@@ -1,0 +1,76 @@
+- question: Hi, how may I assist you today?
+  answer: Hi there, I'm having an issue with my bill. I was charged for a service I didn't order.
+
+- question: I'm sorry about that. Can you please provide me with your account number so I can take a look?
+
+- question: Sure, it's 123456789.
+
+- question: Thank you. I see the charge in question. I'll credit your account for the amount. Is there anything else I can help you with?
+
+- question: No, that's all for now. Thank you for your help.
+
+- question: My pleasure. Have a great day!
+
+- question: Hi, I'm calling because I'm having trouble with my internet connection.
+
+- question: I'm sorry to hear that. Can you please provide me with your account number so I can look up your account?
+
+- question: Sure, it's 987654321.
+
+- question: Thank you. Can you please let me know what specifically is happening with your internet connection?
+
+- question: Well, it keeps dropping and I can't stay connected for more than a few minutes at a time.
+
+- question: I see. Have you tried resetting your router?
+
+- question: Yes, I have. It didn't help.
+
+- question: Okay, let me run a diagnostic on your connection. Can you please hold for a moment?
+
+- question: Sure, I can hold.
+
+- question: Thank you for holding. It looks like there's an issue with your modem. I'll send a technician out to your location to take a look.
+
+- question: Thank you, I appreciate your help.
+
+- question: Hi, I'm calling because I need assistance with my account.
+
+- question: Sure, can you please provide me with your account number?
+
+- question: Yes, it's 555123456.
+
+- question: Thank you. What specifically can I help you with today?
+
+- question: Well, I received a notice that my account is overdue, but I thought I had already paid.
+
+- question: I see. Let me take a look at your account. Can you please hold for a moment?
+
+- question: Sure, I can hold.
+
+- question: Thank you for holding. It looks like the payment was received, but it hasn't been processed yet. It should be reflected on your account within the next 24 hours.
+
+- question: Okay, thank you for your help.
+
+- question: My pleasure. Is there anything else I can assist you with?
+
+- question: No, that's all for now. Thank you.
+
+- question: Hi, I'm calling because I need help setting up my new computer.
+
+- question: Okay, what specifically do you need help with?
+
+- question: Well, I don't know how to transfer my files from my old computer to my new one.
+
+- question: I see. Do you have an external hard drive or cloud storage account you can use to transfer the files?
+
+- question: Yes, I have an external hard drive.
+
+- question: Great. Connect the external hard drive to your old computer and transfer the files you want to keep onto the hard drive. Then, disconnect the hard drive and connect it to your new computer to transfer the files onto it.
+
+- question: Okay, that sounds easy enough. Thank you for your help.
+
+- question: My pleasure. Is there anything else I can help you with?
+
+- question: No, that's all for now. Thanks again.
+
+- question: Hi, I'm calling because I need help with

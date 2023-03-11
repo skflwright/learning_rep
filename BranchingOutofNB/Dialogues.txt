@@ -1,0 +1,76 @@
+#NAME?
+"  answer: Hi there, I'm having an issue with my bill. I was charged for a service I didn't order."
+
+- question: I'm sorry about that. Can you please provide me with your account number so I can take a look?
+
+"- question: Sure, it's 123456789."
+
+- question: Thank you. I see the charge in question. I'll credit your account for the amount. Is there anything else I can help you with?
+
+"- question: No, that's all for now. Thank you for your help."
+
+- question: My pleasure. Have a great day!
+
+"- question: Hi, I'm calling because I'm having trouble with my internet connection."
+
+- question: I'm sorry to hear that. Can you please provide me with your account number so I can look up your account?
+
+"- question: Sure, it's 987654321."
+
+#NAME?
+
+"- question: Well, it keeps dropping and I can't stay connected for more than a few minutes at a time."
+
+#NAME?
+
+"- question: Yes, I have. It didn't help."
+
+#NAME?
+
+#NAME?
+
+- question: Thank you for holding. It looks like there's an issue with your modem. I'll send a technician out to your location to take a look.
+
+#NAME?
+
+"- question: Hi, I'm calling because I need assistance with my account."
+
+#NAME?
+
+"- question: Yes, it's 555123456."
+
+#NAME?
+
+#NAME?
+
+#NAME?
+
+#NAME?
+
+"- question: Thank you for holding. It looks like the payment was received, but it hasn't been processed yet. It should be reflected on your account within the next 24 hours."
+
+#NAME?
+
+#NAME?
+
+"- question: No, that's all for now. Thank you."
+
+"- question: Hi, I'm calling because I need help setting up my new computer."
+
+#NAME?
+
+"- question: Well, I don't know how to transfer my files from my old computer to my new one."
+
+#NAME?
+
+#NAME?
+
+#NAME?
+
+#NAME?
+
+#NAME?
+
+"- question: No, that's all for now. Thanks again."
+
+"- question: Hi, I'm calling because I need help with"

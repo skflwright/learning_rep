@@ -1,0 +1,49 @@
+- answer: Hi there, I'm having an issue with my bill. I was charged for a service
+    I didn't order."
+  question: '"  answer'
+- answer: I'm sorry about that. Can you please provide me with your account number
+    so I can take a look?
+  question: '- question'
+- answer: Sure, it's 123456789."
+  question: '"- question'
+- answer: Thank you. I see the charge in question. I'll credit your account for the
+    amount. Is there anything else I can help you with?
+  question: '- question'
+- answer: No, that's all for now. Thank you for your help."
+  question: '"- question'
+- answer: My pleasure. Have a great day!
+  question: '- question'
+- answer: Hi, I'm calling because I'm having trouble with my internet connection."
+  question: '"- question'
+- answer: I'm sorry to hear that. Can you please provide me with your account number
+    so I can look up your account?
+  question: '- question'
+- answer: Sure, it's 987654321."
+  question: '"- question'
+- answer: Well, it keeps dropping and I can't stay connected for more than a few minutes
+    at a time."
+  question: '"- question'
+- answer: Yes, I have. It didn't help."
+  question: '"- question'
+- answer: Thank you for holding. It looks like there's an issue with your modem. I'll
+    send a technician out to your location to take a look.
+  question: '- question'
+- answer: Hi, I'm calling because I need assistance with my account."
+  question: '"- question'
+- answer: Yes, it's 555123456."
+  question: '"- question'
+- answer: Thank you for holding. It looks like the payment was received, but it hasn't
+    been processed yet. It should be reflected on your account within the next 24
+    hours."
+  question: '"- question'
+- answer: No, that's all for now. Thank you."
+  question: '"- question'
+- answer: Hi, I'm calling because I need help setting up my new computer."
+  question: '"- question'
+- answer: Well, I don't know how to transfer my files from my old computer to my new
+    one."
+  question: '"- question'
+- answer: No, that's all for now. Thanks again."
+  question: '"- question'
+- answer: Hi, I'm calling because I need help with"
+  question: '"- question'
