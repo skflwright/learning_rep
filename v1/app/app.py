@@ -38,7 +38,7 @@ def index():
 # create a text2img route
 @app.post("/text2img") # this is called a decorator, signified by the @ symbol, which wraps the 
 # function 'text:str' in a bunch of additional code  and the we're using the app.post (which is our API app) and we're 
-# creating a post end-pointand naming it text2img.  The decorator notation in python is helpful because 
+# creating a post end-pointand naming it text2img.  The decorator notation in python is helpful and pydantic because 
 # it lets us have all that additional code without having to write it or surround our function.
 
 # The difference between post and get is that a post endpoint is going to expect us to send it something
@@ -62,15 +62,15 @@ def text2img(text: str): # this is the work function. It accepts a text, which i
 #  then we're going to do some life cycle management in the end point (del text2img_pipe). The reason we are doing this is because you'll notice 
 # that we are actually getting the pipeline in the end point to make the demo more accessible to people so you don't have to have huge resources to 
 # be able to run it.  Because of that, we want to make sure we are doing some life cycle management to make sure we are not using too much resources.  
-    del text2img_pipe
+    del text2img_pipe # this empties out the cache, which is good practice. 
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
 # Lastly we are going to return our image to swagger (io.BytesIO(img.tobytes) in the format it expects and we tell it what it should look like (media_type='image/png') and 
-# FastAPI does the rest. 
+# FastAPI does the rest. Swagger UI as an OpenAPI.
     return StreamingResponse(io.BytesIO(img.tobytes()), media_type="image/png")
 
 # run the app
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)sc
-    # this last piece of code is just boiler plate (if name = main), which means when we run the file itself, we're going to use uvicorn, an ASCI server 
-    # to run our app , host it on our local host and expose it on port 8000. So all of this comes together to let us use  the application. 
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+    # this last piece of code is just boiler plate (if name = main), which means when we run the file itself, we're going to use uvicorn, an ASGI server 
+    # to run our app , host it on our local host and expose it on port 8000. So all of this comes together to let us use  the application. c
